@@ -1,0 +1,49 @@
+/* $themes: ( */
+/*   light: ( */
+/*     color-text: #242424, */
+/*     color-background: #E3E0D7, */
+/*     color-background-hover: #D4D1C7, */
+/*     color-border: #555555, */
+/*     color-red: #C31B00, */
+/*     color-blue: #2263b6, */
+/*     color-green: #257933, */
+/*   ), */
+/*   dark: ( */
+/*     color-text: #E3E0D7, */
+/*     color-background: #242424, */
+/*     color-background-hover: #303030, */
+/*     color-border: #808080, */
+/*     color-red: #F9690E, */
+/*     color-blue: #8DBFFF, */
+/*     color-green: #79D688, */
+/*   ), */
+/* ); */
+
+html {
+  font-family: avenir, -apple-system, ubuntu;
+  background-color: #E3E0D7;
+  color: #242424;
+}
+
+a {
+  color: #2263b6;
+}
+
+time {
+  color: #C31B00;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #242424;
+    color: #E3E0D7;
+  }
+
+  a {
+    color: #8DBFFF;
+  }
+
+  time {
+    color: #F9690E;
+  }
+}
