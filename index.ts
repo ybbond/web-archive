@@ -28,8 +28,9 @@ const json: { [key: string]: JSONContent } = {};
 for (const entry of content) {
   const [url, date, title] = entry.name.split("-saved---on-");
 
-  const dateString = date.split(".html")[0];
-  const newUrl = `./a/${url}-saved-${date}.html`;
+  const isPDF = url.slice(-4) === ".pdf";
+  const dateString = isPDF ? date.split(".pdf")[0] : date.split(".html")[0];
+  const newUrl = `./a/${url}-saved-${date}.${isPDF ? "pdf" : "html"}`;
   const src = `./${entry.path}`;
 
   array.push([url, dateString, title]);
@@ -46,18 +47,23 @@ const sorted = array
 for (const entry of sorted) {
   const [url, date, title] = entry;
 
-  const newUrl = `./a/${url}-saved-${date}.html`;
+  const isPDF = url.slice(-4) === ".pdf";
+  const newUrl = `./a/${url}-saved-${date}.${isPDF ? "pdf" : "html"}`;
 
   result.push(
     `<div class="item" id="${date} ${jsonMap
       .get(title)
       ?.tags.map((item) => item)
       .join(" ")}"><p class="title"><a href="${newUrl}"><span>${
-      title.split(".html")[0]
-    }</span></a> saved on <time>${date}</time></p><p class="tags">${jsonMap
-      .get(title)
-      ?.tags.map((item) => `<span id="${item}" class="tagitem">#${item}</span>`)
-      .join("")}
+      isPDF ? title.split(".pdf")[0] : title.split(".html")[0]
+    }</span></a> saved on <time>${date}</time></p><p class="tags">${
+      jsonMap
+        .get(title)
+        ?.tags.map(
+          (item) => `<span id="${item}" class="tagitem">#${item}</span>`
+        )
+        .join("") || '<span class="no-tags">no tags</span>'
+    }
     </p></div>`
   );
 
@@ -89,7 +95,9 @@ let html = `
   lang="en-us"
 >
   <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="hashchange.js"></script>
   </head>
   <body>
     ${result.join(`\n`)}
