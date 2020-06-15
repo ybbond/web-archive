@@ -47,3 +47,35 @@ time {
     color: #F9690E;
   }
 }
+
+.item {
+  margin-bottom: 1rem;
+}
+
+:target {
+  border: solid 1px yellow;
+}
+
+.title {
+  margin-bottom: 0.2rem;
+}
+.tags {
+  margin-top: 0.2rem;
+}
+
+.tagitem {
+  color: #242424;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.4rem;
+  background-color: #D4D1C7;
+  cursor: pointer;
+  border-radius: 0.7rem;
+  margin: 0 0.4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tagitem {
+    color: #E3E0D7;
+    background-color: #303030;
+  }
+}
