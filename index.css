@@ -25,6 +25,18 @@ html {
   color: #242424;
 }
 
+body:not([filterTag=""]) div#filter-container {
+  display: none;
+}
+
+body[filterTag] div#filter-container {
+  display: unset;
+}
+
+body[filterTag] div.item:not([isActive=""]) {
+  display: none;
+}
+
 a {
   color: #2263b6;
 }
@@ -53,7 +65,8 @@ time {
 }
 
 :target {
-  border: solid 1px yellow;
+  outline: solid 1px yellow;
+  outline-offset: 6px;
 }
 
 .title {
@@ -66,11 +79,21 @@ time {
 .tagitem {
   color: #242424;
   font-size: 0.8rem;
+  border: none;
+  background: none;
+  outline: none;
+	color: inherit;
+	cursor: pointer;
   padding: 0.1rem 0.4rem;
   background-color: #D4D1C7;
   cursor: pointer;
   border-radius: 0.7rem;
   margin: 0 0.4rem;
+}
+
+.tagitem[isActive=""] {
+  background-color: yellow;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -51,16 +51,17 @@ for (const entry of sorted) {
   const newUrl = `./a/${url}-saved-${date}.${isPDF ? "pdf" : "html"}`;
 
   result.push(
-    `<div class="item" id="${date} ${jsonMap
+    `<div class="item ${jsonMap
       .get(title)
       ?.tags.map((item) => item)
-      .join(" ")}"><p class="title"><a href="${newUrl}"><span>${
+      .join(" ")}" id="${date}"><p class="title"><a href="${newUrl}"><span>${
       isPDF ? title.split(".pdf")[0] : title.split(".html")[0]
     }</span></a> saved on <time>${date}</time></p><p class="tags">${
       jsonMap
         .get(title)
         ?.tags.map(
-          (item) => `<span id="${item}" class="tagitem">#${item}</span>`
+          (item) =>
+            `<button onclick="location.href='#${item}'" class="tagitem ${item}">#${item}</button>`
         )
         .join("") || '<span class="no-tags">no tags</span>'
     }
@@ -97,9 +98,16 @@ let html = `
   <head>
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="hashchange.js"></script>
   </head>
   <body>
+    <div id="filter-container">
+      <p id="filter-by"></p>
+      <button class="filter-button" onclick="location.href='#'">
+        remove filter
+      </button>
+    </div>
     ${result.join(`\n`)}
   </body>
 </html>
