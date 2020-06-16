@@ -56,7 +56,7 @@
   },
   "The Holy Men of India by Carl Jung.html": {
     "title": "The Holy Men of India by Carl Jung.html",
-    "tags": ["psychology"],
+    "tags": ["psychology", "religion"],
     "date": "2020-06-14T19-23-56"
   },
   "The Art of Unix Programming.html": {
@@ -216,7 +216,7 @@
   },
   "AddyOsmani.com - Modern Touch-Friendly Design.html": {
     "title": "AddyOsmani.com - Modern Touch-Friendly Design.html",
-    "tags": ["UX", "design"],
+    "tags": ["UX", "design", "phone"],
     "date": "2020-06-15T18-15-19"
   },
   "Things I Wished More Developers Knew About Databases.html": {
@@ -273,6 +273,21 @@
     "title": "There's a reason we procrastinate and it's not laziness.html",
     "tags": ["working-life"],
     "date": "2020-06-16T18-41-29"
+  },
+  "Design for Fingers, Touch and People, Part 3 _ UXmatters.html": {
+    "title": "Design for Fingers, Touch and People, Part 3 _ UXmatters.html",
+    "tags": ["UX", "web", "phone"],
+    "date": "2020-06-16T19-31-07"
+  },
+  "Design for Fingers, Touch, and People, Part 2 _ UXmatters.html": {
+    "title": "Design for Fingers, Touch, and People, Part 2 _ UXmatters.html",
+    "tags": ["UX", "web", "phone"],
+    "date": "2020-06-16T19-30-32"
+  },
+  "Design for Fingers, Touch, and People, Part 1 _ UXmatters.html": {
+    "title": "Design for Fingers, Touch, and People, Part 1 _ UXmatters.html",
+    "tags": ["UX", "web", "phone"],
+    "date": "2020-06-16T19-29-00"
   }
 }
 
