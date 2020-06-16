@@ -1,6 +1,6 @@
 # Deno Hacking: Stupid Simple Pinboard.in Imitation
 
-![What do you expect](./ss.png)
+![What do you expect](./ss.jpg)
 
 ## Table of Contents
 
