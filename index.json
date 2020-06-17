@@ -1,12 +1,12 @@
 {
   "Emotional Intelligence_ The Social Skills You Weren't Taught in School.html": {
     "title": "Emotional Intelligence_ The Social Skills You Weren't Taught in School.html",
-    "tags": ["psychology"],
+    "tags": ["psychology", "human"],
     "date": "2020-06-14T23-28-25"
   },
   "Life Lessons from Goethe _ The New Yorker.html": {
     "title": "Life Lessons from Goethe _ The New Yorker.html",
-    "tags": ["life"],
+    "tags": ["life", "linguistic", "design"],
     "date": "2020-06-14T23-25-27"
   },
   "The Zettelkasten Method - LessWrong 2.0.html": {
@@ -26,7 +26,7 @@
   },
   "arieare.co _ Ask Anonymously.html": {
     "title": "arieare.co _ Ask Anonymously.html",
-    "tags": ["indonesian"],
+    "tags": ["indonesian", "blog"],
     "date": "2020-06-14T23-08-49"
   },
   "Moving away from GMail.html": {
@@ -36,7 +36,7 @@
   },
   "A more privacy-friendly blog ⁕ Vincent Bernat.html": {
     "title": "A more privacy-friendly blog ⁕ Vincent Bernat.html",
-    "tags": ["security&privacy", "collective"],
+    "tags": ["security&privacy", "collective", "blog"],
     "date": "2020-06-14T23-05-21"
   },
   "Every Zoom Security and Privacy Flaw So Far, and What You Can Do to Protect Yourself.html": {
@@ -86,7 +86,7 @@
   },
   "Does Your Language Shape How You Think_ - The New York Times.html": {
     "title": "Does Your Language Shape How You Think_ - The New York Times.html",
-    "tags": ["linguistic"],
+    "tags": ["linguistic", "psychology"],
     "date": "2020-06-13T05-49-05"
   },
   "Why I Include Pronouns In My Twitter Bio - Mind Cafe - Medium.html": {
@@ -111,7 +111,7 @@
   },
   "Helvetica — Gary Hustwit.html": {
     "title": "Helvetica — Gary Hustwit.html",
-    "tags": ["fonts"],
+    "tags": ["fonts", "concepts"],
     "date": "2020-06-13T05-41-00"
   },
   "Dan McKinley _ Choose Boring Technology.html": {
@@ -121,12 +121,12 @@
   },
   "inessential_ Memory Hole.html": {
     "title": "inessential_ Memory Hole.html",
-    "tags": ["covid-19"],
+    "tags": ["covid-19", "blog"],
     "date": "2020-06-13T05-39-15"
   },
   "Google Is Not God of The Web — The Psalms.html": {
     "title": "Google Is Not God of The Web — The Psalms.html",
-    "tags": ["google"],
+    "tags": ["google", "web", "performance"],
     "date": "2020-06-13T05-39-08"
   },
   "Why You Should Never Send Your CV via Gmail - The Startup - Medium.html": {
@@ -161,7 +161,7 @@
   },
   "ardwort_freq-dist-id_ Makalah Perbandingan distribusi frekuensi kata bahasa Indonesia.html": {
     "title": "ardwort_freq-dist-id_ Makalah Perbandingan distribusi frekuensi kata bahasa Indonesia.html",
-    "tags": ["papers", "indonesian"],
+    "tags": ["papers", "indonesian", "linguistic", "python"],
     "date": "2020-06-13T05-31-44"
   },
   "30,000 Unsuspecting Rose Bowl Attendees Were Scooped Up in a Facial Recognition Test.html": {
@@ -186,7 +186,7 @@
   },
   "Goodbye, Clean Code — Overreacted.html": {
     "title": "Goodbye, Clean Code — Overreacted.html",
-    "tags": ["programming", "working-life"],
+    "tags": ["programming", "working-life", "performance"],
     "date": "2020-06-13T04-23-44"
   },
   "There's a Rhythm to Good Writing — ADVICE TO WRITERS.html": {
@@ -271,7 +271,7 @@
   },
   "There's a reason we procrastinate and it's not laziness.html": {
     "title": "There's a reason we procrastinate and it's not laziness.html",
-    "tags": ["working-life"],
+    "tags": ["working-life", "psychology"],
     "date": "2020-06-16T18-41-29"
   },
   "Design for Fingers, Touch and People, Part 3 _ UXmatters.html": {
@@ -288,6 +288,21 @@
     "title": "Design for Fingers, Touch, and People, Part 1 _ UXmatters.html",
     "tags": ["UX", "web", "phone"],
     "date": "2020-06-16T19-29-00"
+  },
+  "The Curious Case of Copy & Paste - on risks of pasting arbitrary content in browsers - research.securitum.com.html": {
+    "title": "The Curious Case of Copy & Paste - on risks of pasting arbitrary content in browsers - research.securitum.com.html",
+    "tags": ["security&privacy", "web"],
+    "date": "2020-06-17T12-16-16"
+  },
+  "Do Not Follow JavaScript Trends _ Pragmatic Pineapple 🍍.html": {
+    "title": "Do Not Follow JavaScript Trends _ Pragmatic Pineapple 🍍.html",
+    "tags": ["programming", "working-life", "javascript"],
+    "date": "2020-06-16T22-08-36"
+  },
+  "On Coding, Ego and Attention.html": {
+    "title": "On Coding, Ego and Attention.html",
+    "tags": ["working-life", "programming", "psychology"],
+    "date": "2020-06-16T22-07-44"
   }
 }
 
